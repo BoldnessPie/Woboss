@@ -1,0 +1,77 @@
+.header {
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.title {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 3.5rem;
+  text-shadow: 4px 4px 5px rgb(0, 0, 0);
+}
+
+.countries {
+  position: relative;
+  width: 100%;
+  height: 77vh;
+  padding: 0 10%;
+
+  align-items: center;
+
+  font-size: 2rem;
+  text-shadow: 0 0 15px rgb(176, 210, 25);
+}
+
+.britain {
+  position: absolute;
+  top: 10%;
+  right: 20%;
+}
+
+.germany {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+
+.usa {
+  position: absolute;
+  top: 45%;
+  left: 80%;
+}
+
+.france {
+  position: absolute;
+  top: 75%;
+  right: 30%;
+}
+
+.china {
+  position: absolute;
+  top: 65%;
+  left: 30%;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .britain,
+  .china,
+  .france,
+  .germany,
+  .usa {
+    position: initial;
+    padding: 2.5rem 0;
+
+    z-index: -1;
+  }
+
+  .countries {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 1.5rem;
+  }
+}

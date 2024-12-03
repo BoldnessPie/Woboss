@@ -1,0 +1,9 @@
+body {
+  min-height: 100vh;
+  max-height: 100vh;
+  background: url("/img/header_main.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(249, 250, 251);
+}
